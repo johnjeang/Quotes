@@ -14,6 +14,8 @@
 		A438957A260796CB00D94865 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4389579260796CB00D94865 /* Quote.swift */; };
 		A438957D2607DD6700D94865 /* QuoteData.json in Resources */ = {isa = PBXBuildFile; fileRef = A438957C2607DD6700D94865 /* QuoteData.json */; };
 		A43895802607E0AA00D94865 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438957F2607E0AA00D94865 /* DataService.swift */; };
+		A438958B2607E53C00D94865 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438958A2607E53C00D94865 /* AuthorView.swift */; };
+		A438958E2607E55500D94865 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438958D2607E55500D94865 /* QuoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A4389579260796CB00D94865 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		A438957C2607DD6700D94865 /* QuoteData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuoteData.json; sourceTree = "<group>"; };
 		A438957F2607E0AA00D94865 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A438958A2607E53C00D94865 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
+		A438958D2607E55500D94865 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				A43895632607949600D94865 /* PosterView.swift */,
+				A438958A2607E53C00D94865 /* AuthorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 		A4389573260794C100D94865 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A438958D2607E55500D94865 /* QuoteModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A438958E2607E55500D94865 /* QuoteModel.swift in Sources */,
+				A438958B2607E53C00D94865 /* AuthorView.swift in Sources */,
 				A43895642607949600D94865 /* PosterView.swift in Sources */,
 				A438957A260796CB00D94865 /* Quote.swift in Sources */,
 				A43895622607949600D94865 /* QuotesApp.swift in Sources */,
