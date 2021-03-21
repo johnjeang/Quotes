@@ -13,6 +13,7 @@
 		A43895692607949A00D94865 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43895682607949A00D94865 /* Preview Assets.xcassets */; };
 		A438957A260796CB00D94865 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4389579260796CB00D94865 /* Quote.swift */; };
 		A438957D2607DD6700D94865 /* QuoteData.json in Resources */ = {isa = PBXBuildFile; fileRef = A438957C2607DD6700D94865 /* QuoteData.json */; };
+		A43895802607E0AA00D94865 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438957F2607E0AA00D94865 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A438956A2607949A00D94865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4389579260796CB00D94865 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		A438957C2607DD6700D94865 /* QuoteData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuoteData.json; sourceTree = "<group>"; };
+		A438957F2607E0AA00D94865 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		A4389575260794DE00D94865 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A438957F2607E0AA00D94865 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				A43895642607949600D94865 /* PosterView.swift in Sources */,
 				A438957A260796CB00D94865 /* Quote.swift in Sources */,
 				A43895622607949600D94865 /* QuotesApp.swift in Sources */,
+				A43895802607E0AA00D94865 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

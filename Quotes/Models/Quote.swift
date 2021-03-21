@@ -10,6 +10,7 @@ import Foundation
 class Quote: Identifiable, Decodable{
     
     var id:UUID?
+    var authoer:String
     var image:String
     var text:String
 }
