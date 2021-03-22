@@ -12,13 +12,20 @@ struct AuthorView: View {
     var body: some View {
 
 
-        VStack {
-            ForEach(quote.text, id: \.self) {text_element in
-                Text(text_element)
+        VStack (alignment: .leading, spacing: 20){
+            Text(quote.author)
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            VStack {
+                ForEach(quote.text, id: \.self) {text_element in
+                    Text(text_element)
+                        .padding(.vertical, 10)
+                }
             }
+            Spacer()
         }
-        
-        
+        .padding()
+
         
         
     }

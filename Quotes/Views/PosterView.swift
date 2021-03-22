@@ -30,6 +30,8 @@ struct PosterView: View {
                                             .fontWeight(.bold)
                                         Text("- " + quote.author)
                                 }
+                                    .padding(.horizontal, 15)
+                                    .shadow(color: .black, radius:10, x:2, y:2)
                                 }
                                 .padding(.horizontal)
                                 .foregroundColor(Color.white)
