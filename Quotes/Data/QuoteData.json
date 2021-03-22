@@ -1,22 +1,22 @@
 [
 {
     "author":"Wayne Gretzky",
-    "text":"You miss 100% of the shots you don't take",
+    "text":["You miss 100% of the shots you don't take", "I skae to where the puck is going to be, not to where it has been"],
     "image":"ambition"
     },
 {
     "author":"Charles Swindoll",
-    "text":"Life is 10% what happens to me and 90% of how I react to it",
+    "text":["Life is 10% what happens to me and 90% of how I react to it", "We are all faced with a series of great opportunities brilliantly disguised as impossible situations"],
     "image":"calm"
     },
 {
     "author":"Henry David Thoreau",
-    "text":"Go confidently in the direction of your dream.  Live the life you have imagined.",
+    "text":["Go confidently in the direction of your dream.  Live the life you have imagined.","Our life is frittered away by detail... simplify, simplify"],
     "image":"focus"
     },
 {
     "author":"George Addair",
-    "text":"Everything you've ever wanted is on the other side of fear",
+    "text":["Everything you've ever wanted is on the other side of fear", "Insert filler quote with dummy text"],
     "image":"reflect"
 }
 ]
