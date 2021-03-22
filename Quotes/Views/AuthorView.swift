@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct AuthorView: View {
+    var quote:Quote
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+
+        VStack {
+            ForEach(quote.text, id: \.self) {text_element in
+                Text(text_element)
+            }
+        }
+        
+        
+        
+        
     }
 }
 
 struct AuthorView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthorView()
+        
+        let quoteModel = QuoteModel()
+        AuthorView(quote: quoteModel.quotes[0])
     }
 }

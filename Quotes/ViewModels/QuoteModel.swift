@@ -8,7 +8,8 @@
 import Foundation
 
 class QuoteModel : ObservableObject{
-    var quotes = [Quote]()
+    
+    @Published var quotes = [Quote]()
     
     init(){
         self.quotes = DataService.fetchLocalData()
